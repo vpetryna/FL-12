@@ -14,4 +14,13 @@ background: linear-gradient( to left, burlywood, lightskyblue);
 
 .tm-banner-text {
 	text-shadow: 3px 3px 3px #333;
+	animation: slide-center 3s;
+}
+@keyframes slide-center {
+	from {
+		margin-left: 200px;
+	}
+	to {
+		margin-left: 0
+	}
 }
