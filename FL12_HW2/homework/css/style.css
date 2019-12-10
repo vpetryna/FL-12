@@ -196,4 +196,15 @@ input:focus {
         padding: inherit;
     }
 
+    .padding-medium > ol {
+    	max-width: 70%
+    }
+
+    .heading.tm-content-box {
+    	text-align: center;
+    }
+
+    .heading > .padding-medium > h2 {
+    	font-weight: lighter;
+    }
 }
